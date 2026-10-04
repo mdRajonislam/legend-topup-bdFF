@@ -1,1 +1,103 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Legend Topup BD FF</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+  <div class="logo">💎 LEGEND <span>TOPUP</span></div>
+  <p>FREE FIRE DIAMOND STORE</p>
+</header>
+
+<section class="hero">
+  <div class="hero-content">
+    <h1>Legend Topup BD FF</h1>
+    <p>Fast • Secure • Easy</p>
+    <a href="#topup" class="btn">TOP UP NOW</a>
+  </div>
+</section>
+
+<section class="features">
+  <div>⚡<b>Fast Delivery</b><small>Quick service</small></div>
+  <div>🔒<b>Secure</b><small>Safe ordering</small></div>
+  <div>🎧<b>Support</b><small>Friendly help</small></div>
+</section>
+
+<section id="topup" class="container">
+  <h2>💎 Diamond Packages</h2>
+
+  <div class="packages">
+    <button class="package" data-diamond="100 Diamonds" data-price="100">
+      <strong>💎 100</strong>
+      <span>৳ 100</span>
+    </button>
+
+    <button class="package" data-diamond="310 Diamonds" data-price="250">
+      <strong>💎 310</strong>
+      <span>৳ 250</span>
+    </button>
+
+    <button class="package" data-diamond="520 Diamonds" data-price="400">
+      <strong>💎 520</strong>
+      <span>৳ 400</span>
+    </button>
+
+    <button class="package" data-diamond="1060 Diamonds" data-price="800">
+      <strong>💎 1060</strong>
+      <span>৳ 800</span>
+    </button>
+  </div>
+
+  <div class="order-box">
+    <h2>🛒 Order Details</h2>
+
+    <label>Free Fire Player ID</label>
+    <input id="playerId" type="text" placeholder="Enter Player ID">
+
+    <label>Selected Package</label>
+    <input id="selectedPackage" type="text" readonly placeholder="Select a package above">
+
+    <label>Your Name</label>
+    <input id="name" type="text" placeholder="Enter your name">
+
+    <button id="orderBtn" class="order-btn">PLACE ORDER</button>
+
+    <p id="message"></p>
+  </div>
+</section>
+
+<section class="payment">
+  <h2>💳 Available Payment Methods</h2>
+  <div class="payments">
+    <div>📱 bKash</div>
+    <div>📱 Nagad</div>
+    <div>📱 Rocket</div>
+  </div>
+  <p class="note">
+    Payment instructions should be provided by the site owner.
+    Never share your PIN or password.
+  </p>
+</section>
+
+<section class="contact">
+  <h2>📞 Contact</h2>
+  <p>Need help with your order?</p>
+  <button onclick="showContact()">Contact Support</button>
+  <p id="contactMessage"></p>
+</section>
+
+<footer>
+  <h3>💎 LEGEND TOPUP BD FF</h3>
+  <p>Free Fire Diamond Top Up</p>
+  <p>© 2026 Legend Topup BD FF</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
